@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Oskar Kudas</title>
+</head>
+
+<body>
+    <div class="yup">
+        <div class="top">
+            <div class="azt">
+                <h2>Hello!</h2>
+                <p>Lorem ipsum dolor sit.</p>
+                <nav class="menu">
+                    <button aria-expanded="false" aria-controls="menu-list">
+                        <span class="open"></span>
+                        <span class="close">×</span>
+                        Menu
+                    </button>
+                    <ul id="menu-list">
+                        <li>
+                            <a href="">about me</a>
+                        </li>
+                        <li>
+                            <a href="">skills</a>
+                        </li>
+                        <li>
+                            <a href="">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="container">
+
+            <div class="container">
+                <p class="skil"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro quod fugit quo alias
+                    quaerat
+                    laudantium
+                    veritatis culpa ut et, ducimus earum libero minus nobis illum, odio molestias itaque commodi?
+                </p>
+
+            </div>
+            <div class="container">
+
+
+                <p class="fgh">
+                    Skills:
+
+                </p>
+                <p class="fgh">
+                    <i class="devicon-html5-plain icon"></i>
+                </p>
+                <p class="fgh">
+                    <i class="devicon-css3-plain icon"></i>
+                </p>
+                <p class="fgh">
+                    <i class="devicon-git-plain icon"></i>
+                </p>
+
+            </div>
+
+
+
+        </div>
+        <div class="gallery">
+
+            <h2>Gallery</h2>
+            <div class="iqw"><img src="images/fot1.jpg"></div>
+            <div class="iqw"><img src="images/fot2.jpg"></div>
+            <div class="iqw"><img src="images/fot3.jpg"></div>
+            <div class="iqw"><img src="images/fot4.jpg"></div>
+            <div class="iqw"><img src="images/fot5.jpg"></div>
+            <div class="iqw"><img src="images/fot6.jpg"></div>
+
+
+
+        </div>
+
+
+
+
+        <script>
+            const navButton = document.querySelector('button[aria-expanded]');
+
+            function toggleNav({
+                target
+            }) {
+                const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+                navButton.setAttribute('aria-expanded', !expanded);
+            }
+
+            navButton.addEventListener('click', toggleNav);
+        </script>
+
+
+</body>
+
+</html>
