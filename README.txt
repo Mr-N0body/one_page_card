@@ -1,3 +1,3 @@
 # newRepo
 first page
-asdasdasd
+https://mr-n0body.github.io/one_page_card/
